@@ -1,33 +1,120 @@
-.App {
-  text-align: center;
+
+body {
+  background:#fefefe;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+#BK_CARD {
+  background:url("img/BK_CARD.jpg") no-repeat;
+  width:560px;
+  height:349px;
+  margin:100px auto;
+  border: 2px solid #fff;
+  border-radius: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#BK_CARD h1{
+  color:white;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 800;
+  font-size:35px;
+  margin-left:230px;
 }
 
-.App-link {
-  color: #61dafb;
+#PUCE_CARD {
+  background:url("img/Puce.png") no-repeat;
+  width:95px;
+  height:78px;
+   margin-left:50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#MK_VISA_CARD {
+  background:url("img/MK_VISA.png") no-repeat;
+  width:83px;
+  height:107px;
+   position:relative;
+   left:435px;
+   top:-110px;
+}
+
+#INNER_CARD {
+  width:360px;
+  height:140px;
+  margin-left:50px;
+}
+
+#NUM_CARD {
+  background:rgba(56, 144, 3, 0.3);
+  text-align:center;
+  font-family: Verdana,Helvetica,Arial,sans-serif;
+  font-weight:normal;
+ 
+}
+
+#NUM_CARD h2{
+  transform: scale(1, 1.3);
+  padding:5px;
+  word-spacing: 5px;
+  font-size: 22px;
+  background : -webkit-linear-gradient(#bebf7c, #ffffa3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#HOLDER_CARD h2{
+color:white;
+  transform: scale(1, 1.3);
+  font-size: 20px;
+  font-family: Verdana,Helvetica,Arial,sans-serif;
+}
+
+#VAL_CARD {
+  width:150px;
+  height:60px;
+  margin-left:210px;
+  margin-top:-95px;
+}
+
+#VAL_CARD h3.tx1{
+  color:white;
+  transform: scale(1, 1.3);
+  font-size: 10px;
+  font-weight:150;
+  font-family: Verdana,Helvetica,Arial,sans-serif;
+  width:50px;
+  line-height: 0.9;
+  text-align:center;
+  position:relative;
+  top:5px;
+}
+
+#VAL_CARD img.Arrow{
+  position:relative;
+  left:50px;
+  top:-23px;
+}
+
+#VAL_CARD h3.tx2{
+  color:white;
+  transform: scale(1, 1.3);
+  font-size: 10px;
+  font-weight:150;
+  font-family: Verdana,Helvetica,Arial,sans-serif;
+  width:150px;
+  line-height: 0.9;
+  text-align:center;
+  position:relative;
+  top:5px;
+  left:20px;
+}
+
+#VAL_CARD h3.tx3{
+  color:white;
+  transform: scale(1, 1.3);
+  font-size: 20px;
+  font-family: Verdana,Helvetica,Arial,sans-serif;
+  width:150px;
+  text-align:center;
+  position:relative;
+  top:-65px;
+  left:20px;
 }
