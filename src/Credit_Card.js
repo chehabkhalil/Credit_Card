@@ -24,10 +24,10 @@ function Credit_Card() {
  </div>
  
  <div id="VAL_CARD">
-  <h3 class="tx2">{myCard.valid_month+myCard.valid_year}</h3>
- <h3 class="tx1">VALID THRU</h3>
+  <h3 className="tx2">{myCard.valid_month+myCard.valid_year}</h3>
+ <h3 className="tx1">VALID THRU</h3>
   <img src={src} alt="" class="Arrow"/>
-<h3 class="tx3">11/50</h3>
+<h3 className="tx3">11/50</h3>
 
  </div>
  
