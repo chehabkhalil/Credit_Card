@@ -1,21 +1,24 @@
 
 body {
   background:#fefefe;
+  
 }
 
 #BK_CARD {
-  background:url("img/BK_CARD.jpg") no-repeat;
-  width:560px;
+  width:1000px;
   height:349px;
   margin:100px auto;
   border: 2px solid #fff;
   border-radius: 40px;
+  background-color: rgb(18, 65, 100);
+  float: left;
+  margin-left: 150px;
 }
 
 #BK_CARD h1{
   color:white;
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-weight: 800;
+  font-weight: 600;
   font-size:35px;
   margin-left:230px;
 }
@@ -117,4 +120,18 @@ color:white;
   position:relative;
   top:-65px;
   left:20px;
+}
+.payment-card__input{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1rem;
+  border: 3px solid #d0d0ce;  
+  margin-bottom: 10px;
+  font-family: inherit;
+  font-size: 100%;
+}
+#input{
+  margin-left: 60%;
+  margin-top: -30%;
+  margin-right: 2%;
 }
